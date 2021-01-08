@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical">
+
+
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0099FF" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/waves"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Résultat Final"
+        android:textAlignment="center"
+        android:textColor="#046BBD"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total de questions:"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#0099FF"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="37dp" />
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textColor="#0099FF"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="37dp"/>
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Réponses correctes:"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FF4CAF50"
+        android:layout_marginLeft="37dp"
+        />
+
+    <TextView
+        android:id="@+id/tx2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textColor="#FF4CAF50"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="37dp"/>
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="réponses fausses:"
+        android:layout_marginStart="37dp"
+        android:textSize="20dp"
+        android:textColor="#FFE91E63"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+
+    <TextView
+        android:id="@+id/tx3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#FFE91E63"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="37dp"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:padding="16dp"
+        android:text="Passer"
+        app:backgroundTint="#0099FF" />
+
+
+</LinearLayout>

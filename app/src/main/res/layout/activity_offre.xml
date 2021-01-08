@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".offreActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:background="#0099FF" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:background="@drawable/waves" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textColor="@color/green"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:text="Les Offres"
+            android:layout_gravity="center"
+            android:padding="25dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/btnn1"
+            android:layout_width="350dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/capsules"
+            android:text="Technicien supérieur"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:backgroundTint="#0099FF" />
+
+        <Button
+            android:id="@+id/btnn2"
+            android:layout_width="350dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/capsules"
+            android:text="Développeur Java"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:backgroundTint="#03A9F4" />
+
+        <Button
+            android:id="@+id/btnn3"
+            android:layout_width="350dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/capsules"
+            android:text="Développeur Front-end"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:backgroundTint="#0099FF" />
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
